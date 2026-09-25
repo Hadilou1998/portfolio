@@ -94,39 +94,43 @@ function Experience() {
                 </div>
 
                 <p className="experience-introduction">
-                    Mes expériences professionnelles m'ont permis d'intervenir
-                    sur différentes étapes du développement d'applications web :
-                    conception, développement Full-Stack, maintenance, 
-                    automatisation et amélioration d'interfaces.
+                    Mes expériences professionnelles m'ont permis d'intervenir sur 
+                    différentes étapes du développement d'applications web : conception, 
+                    développement Full-Stack, maintenance, automatisation et amélioration 
+                    d'interfaces.
                 </p>
 
-                <div className="timeline">
+                <div className="experience-timeline">
                     {experiences.map((experience, index) => (
-                        <article className="timeline-item" key={`${experience.organization}-${index}`}>
-                            <div className="timeline-marker"></div>
-                            <div className="timeline-date">
+                        <article className="experience-item" key={`${experience.organization}-${index}`}>
+                            <div className="experience-date">
                                 {experience.period}
                             </div>
-                            <div className="timeline-content">
-                                <h3>{experience.title}</h3>
 
-                                <span className="timeline-organization">
-                                    {experience.organization}
-                                </span>
-                                
-                                <ul className="experience-description">
+                            <div className="experience-line">
+                                <span className="experience-dot"></span>
+                            </div>
+                            
+                            <div className="experience-card">
+                                <div className="experience-card-header">
+                                    <div>
+                                        <h3>{experience.title}</h3>
+
+                                        <p className="experience-company">
+                                            {experience.organization}
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <ul className="experience-missions">
                                     {experience.description.map((item) => (
-                                        <li key={item}>
-                                            {item}
-                                        </li>
+                                        <li key={item}>{item}</li>
                                     ))}
                                 </ul>
 
-                                <div className="timeline-technologies">
+                                <div className="experience-technologies">
                                     {experience.technologies.map((technology) => (
-                                        <span key={technology}>
-                                            {technology}
-                                        </span>
+                                        <span key={technology}>{technology}</span>
                                     ))}
                                 </div>
                             </div>
