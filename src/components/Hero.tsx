@@ -13,7 +13,7 @@ function Hero() {
                 <div className="availability-badge">
                     <span className="availability-dot"></span>
 
-                    Recherche d'une alternance - Octobre 2026
+                    Recherche d'une alternance, d'un CDD ou d'un CDI
                 </div>
 
                 <p className="hero-description">
@@ -22,7 +22,7 @@ function Hero() {
 
                 {/* Rythme d'alternance */}
                 <p className="alternance-rhythm">
-                    Rythme : 3 semaines en entreprise / 1 semaine à l'école
+                    {/* Rythme : 3 semaines en entreprise / 1 semaine à l'école */}
                 </p>
 
                 <div className="hero-technologies">
