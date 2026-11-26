@@ -4,6 +4,7 @@ type EducationItem = {
     location: string;
     period?: string;
     highlight?: string;
+    status?: string;
 };
 
 const educationItems: EducationItem[] = [
@@ -12,6 +13,7 @@ const educationItems: EducationItem[] = [
         school: "Ecole 301xPMN",
         location: "Paris La Défense (92)",
         highlight: "Master • Option Lead Développeur Full-Stack",
+        status: "En cours",
     },
 
     {
@@ -19,13 +21,6 @@ const educationItems: EducationItem[] = [
         school: "CFA Prépavenir",
         location: "Franconville (95)",
         period: "2024 - 2025",
-    },
-
-    {
-        title: "Piscine Architecte",
-        school: "ETNA (Etablissement de Technologies Numériques Avancées)",
-        location: "Ivry-sur-Seine (94)",
-        period: "2022 - 2023",
     },
 
     {
