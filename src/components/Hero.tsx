@@ -42,7 +42,7 @@ function Hero() {
                     <a href="#projects" className="btn btn-primary">
                         Découvrir mes projets
                     </a>
-                    <a href="/CV_092026_Hadil_ISSILAME_V4.pdf" className="btn btn-secondary" target="_blank" rel="noreferrer">
+                    <a href="/CV_112026_Hadil_ISSILAME_V2.pdf" className="btn btn-secondary" target="_blank" rel="noreferrer">
                         Voir mon CV
                     </a>
                 </div>
