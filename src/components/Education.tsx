@@ -20,14 +20,12 @@ const educationItems: EducationItem[] = [
         title: "Concepteur Développeur d'Applications",
         school: "CFA Prépavenir",
         location: "Franconville (95)",
-        period: "2024 - 2025",
     },
 
     {
         title: "Métier de l'Informatique",
         school: "IUT Vélizy",
         location: "Vélizy-Villacoublay (78)",
-        period: "2020 - 2022",
         highlight: "Licence pro • Option Application&Data",
     },
 
@@ -35,7 +33,6 @@ const educationItems: EducationItem[] = [
         title: "Services Informatiques aux Organisations",
         school: "ICOGES",
         location: "Paris (75)",
-        period: "2018 - 2020",
         highlight: "BTS • Option Solutions Logicielles et Applications Métiers",
     },
 ];
